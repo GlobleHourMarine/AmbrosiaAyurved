@@ -36,7 +36,6 @@ class Api extends CI_Controller
         // Set the header to accept JSON input
         header('Content-Type: application/json');
 
-        // Get the JSON input from the Flutter application
         $input_data = json_decode(file_get_contents('php://input'), true);
 
         // Extract data from the input JSON
