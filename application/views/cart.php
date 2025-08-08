@@ -109,7 +109,6 @@
       padding-top: 0px;
       gap: 0px;
       background-color: #006666;
-      /* Ensure visible */
    }
 
    .offer-section {
