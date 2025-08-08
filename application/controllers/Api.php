@@ -33,7 +33,6 @@ class Api extends CI_Controller
     }
     public function userregister()
     {
-        // Set the header to accept JSON input
         header('Content-Type: application/json');
 
         $input_data = json_decode(file_get_contents('php://input'), true);
