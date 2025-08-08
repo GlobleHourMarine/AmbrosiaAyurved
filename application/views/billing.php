@@ -1,10 +1,4 @@
-<?php
-// echo "<pre>";
-// print_r($user_address);
-// echo "total";
-// print_r($cart_total);
-// die();
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
