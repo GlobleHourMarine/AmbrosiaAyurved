@@ -198,7 +198,7 @@
         >
           <div
             class="pack-option border border-green-600 p-4 rounded-xl bg-green-50 relative cursor-pointer hover:shadow-lg text-center md:text-left selected"
-          >
+            onclick="selectPack(this)"  >
             <div
               class="absolute top-2 right-2 text-green-600 text-xl check-icon"
             >
@@ -212,7 +212,7 @@
             <p class="text-red-600">Save ₹276/-</p>
           </div>
 
-          <div
+          <div onclick="selectPack(this)"
             class="pack-option border border-gray-400 p-4 rounded-xl bg-white relative cursor-pointer hover:shadow-lg text-center md:text-left"
           >
             <div
@@ -228,7 +228,7 @@
             <p class="text-red-600">Save ₹626/-</p>
           </div>
 
-          <div
+          <div onclick="selectPack(this)"
             class="pack-option border border-gray-400 p-4 rounded-xl bg-white relative cursor-pointer hover:shadow-lg text-center md:text-left"
           >
             <div
@@ -1423,6 +1423,34 @@
           arrow.innerHTML = "&#9660;"; // Down arrow
         }
       }
+
+        function selectPack(element) {
+  // Remove active styles from all packs
+  document.querySelectorAll(".pack-option").forEach((pack) => {
+    pack.classList.remove("border-green-600", "bg-green-50", "selected");
+    pack.classList.add("border-gray-400", "bg-white");
+
+    // Hide check icons
+    const checkIcon = pack.querySelector(".check-icon");
+    if (checkIcon) {
+      checkIcon.classList.add("hidden");
+      checkIcon.classList.remove("text-green-600");
+      checkIcon.classList.add("text-gray-400");
+    }
+  });
+
+  // Add active styles to clicked pack
+  element.classList.add("border-green-600", "bg-green-50", "selected");
+  element.classList.remove("border-gray-400", "bg-white");
+
+  // Show check icon for clicked pack
+  const checkIcon = element.querySelector(".check-icon");
+  if (checkIcon) {
+    checkIcon.classList.remove("hidden", "text-gray-400");
+    checkIcon.classList.add("text-green-600");
+  }
+}
+
 
       // -----------------------------------------------------------------------------------------------
     </script>
