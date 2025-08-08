@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ambrosia-ayurved",
+  "private_key_id": "403babbc84be37965893204dd0784e938a6e4e83",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDh9SVVd5nQHC8n\nhF5Gtuyq1gAkKPSsFOD189lPYiDENzQONFHCzFhzbCUXvfiFQv6QBysmC5+8kB4c\n3pq+Dz6U1u3OZ7QK++2MoDN5FxegNMjxM/CJIyoe2sTsLWv9+v3rUeBJGMtWKLOQ\nEXsL3uVUI0YInLTKwFDGEO/Oyy6mgB9Ho8NHbbBImowEKsh2Lie2SXT+Al+8qWyV\n14ImoWaQsq3oTIfKEDLeE+/r27KuHmTjtN3ABLHPknN7aGAWVw+c1nPVskW+OjI4\nFYULbyg5OYHe0UIshC78gvvKpdBZG+5rbnB7kxS2cpoaCoVhWjTIF+ZrtRUCvXYr\nNmRUfmnvAgMBAAECggEAaDrkANvNyPDnU4w8zNPesiNLJ2L5ElQDPZFBgdvbD4gD\nbDX4LSqD9qJBLgWEmTxBHwEfh0o/YgT8zwZkTR3NGW1XfynZJGP3vTG87LOZQ151\n/sWdxDTDXj4+Lk/5i8v2y1EWa8GTMmhOBDv8DYrBMKGg0aIvx4MU/3ialkKlf0mm\ngIU2eN/mHdmO/drqDckVST1dnpG/fvXCEossKYbsmSCiCvDAcKwPe4d+4CE1HmSX\nyNr7LVm3X5PzwIRK9Sft/yPakTcaSeNNThdBVePXpV+khG49gwAJ34rC8HPgeQ8r\nX33E6jE3ebBOBykoAwIUvcKyizJO8VpdR4ZbTHK3qQKBgQD8NI1AgCX03smung3j\nREljfP4km07kLWmUerxtd5ujoQtc8zrAknfOyoH3nwfpcvo/XDMPWSA7JayqHHAx\n+PM6J0itxSoWuUhXeF6MTux8x5PWJHvs3uzKZag3eSUS2U1LhqZAHmmKwxj+Jme0\nF6LfmdCdQYus0afRRLRjePT1WwKBgQDlW34rVfcMPmcMZua1YL8iLvUiktKGuRjD\ncxZq10moad0Yi9Z21Ye1GDGokT/C1R6ftk/4lltxbYi16mwWfk8Ek0UNR+y/NMsL\nHZIbM07sxhJrYMBE7Hc7Z2Kkc3QDZU4Ry5AM3agSjP9kY2wWKGkDXPFOanP55bCw\nsozrllf9/QKBgEliDRuQbfri/DH3wTi4fNYa32PNYNYZtJfEYqFDZSDmUgUYrKat\nt3iPCeP//PBbSR84d47msu8i1iulHKwdsL/iAE63iLiV7sustW4D5OGlvIlZkklo\nz+NQUvLZKAVk/w2Tvzn232TFwbbpe9E182k2OzIWiUqeskK8x/QNlNDzAoGAdRWv\n4w+PfoCcuogNXqp06E5wdaXeM0hqi9xEpWYiBAeHBvDcGu4GyTwAnb0If72sVHwN\ndynKpKz2DWgOpaz1SbCkn5MIGNQqkxIVdC1NLTIwVQCfJpBQjdLJWIpXvyQIJq10\nbBz7n/y6o9TdaLJYaY8Y4J8XdYr8GDgOGHY3lUECgYEAkDUlHfku/iehCcvFPSDq\nAAEafByF0xuL92B2y1OWwkdA001lkpUtLqVKFEtZrP1hbkmI/UoopnyQY/KKVNN6\nPrTbIQ1Fc94XtIjafIosRmgD6RtvbQyP/RJrKCLZOWRILSIPpEst8bAUfKkA2TKS\n92Dom2IiHKtR417DHzDdkQc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@ambrosia-ayurved.iam.gserviceaccount.com",
+  "client_id": "102511669341499092579",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40ambrosia-ayurved.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
